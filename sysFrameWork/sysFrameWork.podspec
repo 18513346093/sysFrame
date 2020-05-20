@@ -9,11 +9,11 @@ Pod::Spec.new do |s|
        这是一个sdk
                        DESC
 
-  s.homepage         = 'https://github.com/18513346093/sysFrameWork'
+  s.homepage         = 'https://github.com/18513346093/sysFrame'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '18513346093' => 'sunyongshuai@lionbridgecapital.cn' }
-  s.source           = { :git => 'https://github.com/18513346093/sysFrameWork.git',:tag => "#{s.version}" }
+  s.source           = { :git => 'https://github.com/18513346093/sysFrame.git',:tag => "#{s.version}" }
  
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
