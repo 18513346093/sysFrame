@@ -1,0 +1,16 @@
+PODS:
+  - sysFrameWork (0.0.1)
+
+DEPENDENCIES:
+  - sysFrameWork (from `../`)
+
+EXTERNAL SOURCES:
+  sysFrameWork:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  sysFrameWork: dec5cad314c748a2cdbbdc11f65ceab8d89f6612
+
+PODFILE CHECKSUM: ef01799390837759f12267e6c638033a3c5bae87
+
+COCOAPODS: 1.7.5

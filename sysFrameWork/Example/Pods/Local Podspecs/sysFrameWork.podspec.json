@@ -1,0 +1,24 @@
+{
+  "name": "sysFrameWork",
+  "version": "0.0.1",
+  "summary": "A short description of sysFrameWork.",
+  "description": "这是一个sdk",
+  "homepage": "https://github.com/18513346093/sysFrameWork",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "18513346093": "sunyongshuai@lionbridgecapital.cn"
+  },
+  "source": {
+    "git": "https://github.com/18513346093/sysFrameWork.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "sysFrameWork/Classes/**/*",
+  "resources": "sysFrameWork/Assets/firstBundel.bundle",
+  "vendored_frameworks": "sysFrameWork/firstFrameWork.frameWork"
+}
