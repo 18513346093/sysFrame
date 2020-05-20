@@ -1,6 +1,0 @@
-framework module sysFrameWork {
-  umbrella header "sysFrameWork-umbrella.h"
-
-  export *
-  module * { export * }
-}
