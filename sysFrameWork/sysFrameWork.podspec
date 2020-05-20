@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'sysFrameWork/Classes/**/*'
+  #s.source_files = 'sysFrameWork/Classes/**/*'
 
   s.resources     = 'sysFrameWork/Assets/firstBundel.bundle' # .bundle资源文件
   s.vendored_frameworks = 'sysFrameWork/firstFrameWork.frameWork'
