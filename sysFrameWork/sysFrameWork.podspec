@@ -21,13 +21,10 @@ Pod::Spec.new do |s|
 
   #s.source_files = 'sysFrameWork/Classes/**/*'
 
-  s.resources = 'sysFrameWork/Assets/*.bundle' # .bundle资源文件
-  s.vendored_frameworks = 'sysFrameWork/*.{framework}'
-  #s.vendored_frameworks = 'sysFrameWork/firstFrameWork.frameWork'
-  #s.resources     = 'sysFrameWork/Assets/firstBundel.bundle'
-   #s.resource_bundles = {
-    #'sysFrameWork' => ['sysFrameWork/Assets/*.bundle']
-  # }
+ # s.resources = 'sysFrameWork/Assets/*.bundle' # .bundle资源文件
+ # s.vendored_frameworks = 'sysFrameWork/*.{framework}'
+  s.vendored_framework = 'sysFrameWork/firstFrameWork.frameWork'
+  s.resource     = 'sysFrameWork/Assets/firstBundel.bundle'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
