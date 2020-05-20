@@ -351,10 +351,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-sysFrameWork_Example/Pods-sysFrameWork_Example-resources.sh",
 				"${PODS_ROOT}/../../sysFrameWork/Assets/firstBundel.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/sysFrameWork/sysFrameWork.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/firstBundel.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/sysFrameWork.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
