@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   #s.source_files = 'sysSDK/Classes/**/*'
 
   #s.resources     = 'sysSDK./Assets/firstBundel.bundle' # .bundle资源文件
-  s.vendored_frameworks = 'FrameWork/firstFrameWork.frameWork'
+  s.vendored_frameworks = 'sysSDK/FrameWork/firstFrameWork.frameWork'
   
   # s.resource_bundles = {
   #   'sysFrameWork' => ['sysSDK/Assets/*.png']
