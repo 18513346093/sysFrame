@@ -1,6 +1,6 @@
 
 Pod::Spec.new do |s|
-  s.name             = 'sysSDK.'
+  s.name             = 'sysSDK'
   s.version          = '0.1.0'
   s.summary          = 'A short description of sysSDK.'
 
@@ -18,13 +18,13 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'sysSDK/Classes/**/*'
+  #s.source_files = 'sysSDK/Classes/**/*'
 
   #s.resources     = 'sysSDK./Assets/firstBundel.bundle' # .bundle资源文件
-  s.vendored_frameworks = 'sysSDK/firstFrameWork.frameWork'
+  s.vendored_frameworks = 'FrameWork/firstFrameWork.frameWork'
   
   # s.resource_bundles = {
-  #   'sysFrameWork' => ['sysSDK./Assets/*.png']
+  #   'sysFrameWork' => ['sysSDK/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
