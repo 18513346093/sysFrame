@@ -39,12 +39,12 @@
 		0F77A508B34DDABC2B7FEFA101CC4921 /* Pods-sysSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sysSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		12E46E195C324C306A7F0028D91E72E2 /* Pods-sysSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-sysSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2417193E5C7223101001BC267277D234 /* Pods-sysSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sysSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		31490F6522263B8543A7615FB4EEA810 /* firstFrameWork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = firstFrameWork.framework; path = FrameWork/firstFrameWork.framework; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3DD8006D8FEE7A760A1753BB4907C45B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		43DEFC615CCBE440A7CD6B4EFE349BD5 /* sysSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = sysSDK.xcconfig; sourceTree = "<group>"; };
 		46DD027F2B19EFF1F92DFBACDB945F47 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		58952FE4E3842EE88F96399DABDD3B9B /* sysSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = sysSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		649E95332D0446732058657D92F18B28 /* firstFrameWork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = firstFrameWork.framework; path = sysSDK/FrameWork/firstFrameWork.framework; sourceTree = "<group>"; };
 		8FEB2E182F060FE6EE1477EAD79E4702 /* Pods-sysSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-sysSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A28B8F1DD1987BF4659C421DC1B80E52 /* Pods-sysSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-sysSDK_Tests.modulemap"; sourceTree = "<group>"; };
@@ -65,6 +65,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00E533C1A43F02B2450270B53CD348F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				649E95332D0446732058657D92F18B28 /* firstFrameWork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		11ECCB3353A2DFD4DA8118C9FB4C57C6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -93,7 +101,7 @@
 		3001691B1FDB2AEA53F802FAD5C325BE /* sysSDK */ = {
 			isa = PBXGroup;
 			children = (
-				FD794DBA509465EB5CDA4B5E234FCB9D /* Frameworks */,
+				00E533C1A43F02B2450270B53CD348F5 /* Frameworks */,
 				8E64F19453B144524D3D53F57402A5F0 /* Pod */,
 				11ECCB3353A2DFD4DA8118C9FB4C57C6 /* Support Files */,
 			);
@@ -158,14 +166,6 @@
 			isa = PBXGroup;
 			children = (
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		FD794DBA509465EB5CDA4B5E234FCB9D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				31490F6522263B8543A7615FB4EEA810 /* firstFrameWork.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

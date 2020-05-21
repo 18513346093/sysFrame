@@ -18,5 +18,5 @@
   "platforms": {
     "ios": "8.0"
   },
-  "vendored_frameworks": "FrameWork/firstFrameWork.frameWork"
+  "vendored_frameworks": "sysSDK/FrameWork/firstFrameWork.frameWork"
 }
