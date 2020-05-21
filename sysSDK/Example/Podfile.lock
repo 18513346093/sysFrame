@@ -1,0 +1,16 @@
+PODS:
+  - sysSDK (0.1.0)
+
+DEPENDENCIES:
+  - sysSDK (from `../`)
+
+EXTERNAL SOURCES:
+  sysSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  sysSDK: da0df0af205a4fca32fc529a61178d2a8a690f11
+
+PODFILE CHECKSUM: 370ee1decb2e45beb7c3e26e8688be16638a628f
+
+COCOAPODS: 1.7.5
